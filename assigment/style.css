@@ -1,4 +1,4 @@
-/* ---------- Basic ---------- */
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
@@ -64,7 +64,7 @@ a { text-decoration: none; color: inherit; }
   font-size: 16px;
 }
 
-/* ---------- Products ---------- */
+
 .section-title { font-size: 28px; margin: 40px 0 20px; }
 
 .products {
@@ -78,7 +78,7 @@ a { text-decoration: none; color: inherit; }
   border: 1px solid #ddd;
   border-radius: 12px;
   overflow: hidden;
-  width: calc(33.33% - 14px);   /* desktop: 3 products ek line mein */
+  width: calc(33.33% - 14px);  
 }
 
 .product .photo {
@@ -96,7 +96,7 @@ a { text-decoration: none; color: inherit; }
 .product .price { font-size: 18px; font-weight: bold; margin-bottom: 10px; }
 .product .btn { background: #1f3fd6; color: #fff; width: 100%; padding: 10px; border-radius: 8px; }
 
-/* ---------- Contact ---------- */
+
 .contact-box {
   background: #fff;
   border: 1px solid #ddd;
@@ -120,7 +120,7 @@ a { text-decoration: none; color: inherit; }
   font-size: 15px;
 }
 
-/* ---------- Fixed Footer ---------- */
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -141,13 +141,13 @@ a { text-decoration: none; color: inherit; }
 
 .footer a { margin-left: 16px; }
 
-/* ---------- Tablet (2 products) ---------- */
+
 @media (max-width: 800px) {
   .product { width: calc(50% - 10px); }
   .hero h1 { font-size: 32px; }
 }
 
-/* ---------- Mobile (1 product) ---------- */
+
 @media (max-width: 520px) {
   .product { width: 100%; }
   .menu a { margin-left: 10px; font-size: 14px; }
